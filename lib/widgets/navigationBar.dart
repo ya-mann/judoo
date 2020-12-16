@@ -1,5 +1,5 @@
 import 'package:judoo/customIcons.dart';
-import 'package:judoo/widgets/pages/index.dart';
+import 'package:judoo/widgets/views/index.dart';
 import 'package:flutter/material.dart';
 
 

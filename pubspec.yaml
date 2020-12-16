@@ -1,5 +1,5 @@
 name: judoo
-description: Application about the Judo.
+description: A application about the Judo.
 publish_to: 'none'
 
 version: 1.0.0+1
@@ -16,6 +16,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons: "^0.8.0"
 
 flutter:
   uses-material-design: true
@@ -23,3 +24,8 @@ flutter:
     - family: CustomIcons
       fonts:
         - asset: assets/fonts/CustomIcons.ttf
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
