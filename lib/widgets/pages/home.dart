@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:Judoo/helpers/getNews.dart';
-import 'package:Judoo/widgets/navigationBar.dart';
+import 'package:judoo/helpers/getNews.dart';
+import 'package:judoo/widgets/navigationBar.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key key}) : super(key: key);

@@ -1,4 +1,4 @@
-import 'package:Judoo/customIcons.dart';
+import 'package:judoo/customIcons.dart';
 import 'package:flutter/material.dart';
 
 class ClubsPage extends StatelessWidget {

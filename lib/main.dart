@@ -1,4 +1,4 @@
-import 'package:Judoo/widgets/navigationBar.dart';
+import 'package:judoo/widgets/navigationBar.dart';
 import 'package:flutter/material.dart';
 
 void main() {
