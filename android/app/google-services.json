@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "743255835378",
+    "project_id": "judoo-e6862",
+    "storage_bucket": "judoo-e6862.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743255835378:android:4689828e9e07f6b687866b",
+        "android_client_info": {
+          "package_name": "fr.mestery.judoo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "743255835378-ckkaf4qqc91g33hq58takhve93ujkl6c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXTLsl4BJCEQJ7-JGkeYJFtt8-odU2VA8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "743255835378-ckkaf4qqc91g33hq58takhve93ujkl6c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
