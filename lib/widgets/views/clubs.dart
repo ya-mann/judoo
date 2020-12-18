@@ -98,7 +98,7 @@ class ClubDetails extends StatelessWidget {
           SizedBox(height: 30),
           Text(this.data.description,
               style:
-                  Theme.of(context).textTheme.bodyText1.copyWith(fontSize: 18),
+                  Theme.of(context).textTheme.bodyText1.copyWith(fontSize: 18, fontWeight: FontWeight.normal),
               textAlign: TextAlign.justify),
           SizedBox(height: 10),
           Table(
