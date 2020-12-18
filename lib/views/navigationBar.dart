@@ -1,7 +1,5 @@
-import 'package:judoo/customIcons.dart';
-import 'package:judoo/widgets/views/index.dart';
+import 'main.dart';
 import 'package:flutter/material.dart';
-
 
 class BottomNavigationBarController extends StatefulWidget {
   @override
