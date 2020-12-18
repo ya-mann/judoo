@@ -95,12 +95,12 @@ class ClubDetails extends StatelessWidget {
               style:
                   Theme.of(context).textTheme.headline1.copyWith(fontSize: 24),
               textAlign: TextAlign.center),
-          SizedBox(height: 30),
+          SizedBox(height: 10),
           Text(this.data.description,
               style:
                   Theme.of(context).textTheme.bodyText1.copyWith(fontSize: 18, fontWeight: FontWeight.normal),
               textAlign: TextAlign.justify),
-          SizedBox(height: 10),
+          SizedBox(height: 15),
           Table(
             border: TableBorder.all(),
             children: [
@@ -137,7 +137,7 @@ class ClubDetails extends StatelessWidget {
               }).toList()
             ],
           ),
-          SizedBox(height: 10),
+          SizedBox(height: 20),
           Image.network(this.data.image)
         ],
       ))),
