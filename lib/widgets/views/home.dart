@@ -12,10 +12,10 @@ class NewsWidget extends StatelessWidget {
         padding: EdgeInsets.symmetric(vertical: 5),
         child: Material(
             color: Colors.white70,
-            borderRadius: BorderRadius.all(Radius.circular(15)),
+            borderRadius: BorderRadius.all(Radius.circular(10)),
             child: InkWell(
               onTap: () => launch(this.data.link, forceWebView: true),
-              borderRadius: BorderRadius.all(Radius.circular(15)),
+              borderRadius: BorderRadius.all(Radius.circular(10)),
               //color: Colors.white54,
               child: Padding(
                 padding: EdgeInsets.all(15),
@@ -77,11 +77,11 @@ class HomePage extends StatelessWidget {
                 : [
                     Container(
                       decoration: BoxDecoration(
-                        borderRadius: BorderRadius.all(Radius.circular(15)),
+                        borderRadius: BorderRadius.all(Radius.circular(10)),
                         color: Colors.white54,
                       ),
                       height: 150,
-                      //borderRadius: BorderRadius.all(Radius.circular(15)),
+                      //borderRadius: BorderRadius.all(Radius.circular(10)),
                       child: Center(
                         child: snapshot.hasError
                             ? Icon(Icons.error_rounded, color: Colors.red)
@@ -91,12 +91,26 @@ class HomePage extends StatelessWidget {
                   ];
             return SafeArea(
               child: Padding(
-                padding: EdgeInsets.symmetric(vertical: 15, horizontal: 10),
-                child: ListView(
-                  shrinkWrap: true,
-                  children: newsWidgets,
-                ),
-              ),
+                  padding: EdgeInsets.symmetric(vertical: 15, horizontal: 10),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Padding(
+                        padding: EdgeInsets.fromLTRB(40, 5, 0, 8),
+                        child: Text('Actualité',
+                            style: Theme.of(context)
+                                .textTheme
+                                .headline2
+                                .copyWith(fontSize: 22),
+                            textAlign: TextAlign.left),
+                      ),
+                      Expanded(
+                          child: ListView(
+                        shrinkWrap: true,
+                        children: newsWidgets,
+                      )),
+                    ],
+                  )),
             );
           }),
     );
